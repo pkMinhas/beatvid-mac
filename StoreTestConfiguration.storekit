@@ -1,0 +1,33 @@
+{
+  "identifier" : "04209868",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "395D4728",
+      "localizations" : [
+        {
+          "description" : "Remove the watermark from the generated video",
+          "displayName" : "(Local) Remove Watermark",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.marchingbytes.beatvid.removeWatermark",
+      "referenceName" : "(Local) Remove Watermark",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}
