@@ -37,14 +37,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @IBAction func openWebsite(_ sender: Any) {
-        NSWorkspace.shared.open(URL(string: "https://www.marchingbytes.com/beatvid")!)
+        NSWorkspace.shared.open(URL(string: "https://github.com/pkMinhas")!)
     }
     @IBAction func sendMailAction(_ sender: Any) {
         let versionNumber = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
         let buildNumber = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
         var subject = "BeatVid v\(versionNumber)(\(buildNumber)) Feedback"
         subject = subject.addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!
-        NSWorkspace.shared.open(URL(string: "mailto:contact@marchingbytes.com?subject=\(subject)")!)
+        NSWorkspace.shared.open(URL(string: "mailto:preet@marchingbytes.com?subject=\(subject)")!)
     }
     
     @IBAction func writeAReviewAction(_ sender: Any) {
@@ -52,14 +52,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @IBAction func openPrivacyPolicy(_ sender: Any) {
-        NSWorkspace.shared.open(URL(string: "https://www.marchingbytes.com/beatvid-privacypolicy")!)
+        NSWorkspace.shared.open(URL(string: "https://github.com/pkMinhas")!)
     }
     @IBAction func openTnC(_ sender: Any) {
-        NSWorkspace.shared.open(URL(string: "https://www.marchingbytes.com/beatvid-termsofuse")!)
+        NSWorkspace.shared.open(URL(string: "https://github.com/pkMinhas")!)
     }
     
     @IBAction func loadHelpUrl(_ sender:Any) {
-        NSWorkspace.shared.open(URL(string: "https://www.marchingbytes.com/beatvid#help")!)
+        NSWorkspace.shared.open(URL(string: "https://github.com/pkMinhas")!)
     }
 }
 
