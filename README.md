@@ -1,6 +1,9 @@
 # BeatVid – Create stunning videos from images
 BeatVid is a macOS app for music producers and podcasters who want to post their beat videos, podcasts and other audio content on social media. In just a couple of clicks, BeatVid creates a HD 1920×1080 video file which can be posted to YouTube and other social media platforms. Creating compelling content couldn’t be easier!
 
+## Code walkthrough
+Watch [this video](https://www.youtube.com/watch?v=aWDg8mbBlxw) for complete project walkthrough
+
 ## Why is this app open-source?
 BeatVid started off as a paid-for app on the Mac App Store. First released in 2022, I built BeatVid to solve one particular problem: generating videos for my hiphop beats youtube channel, [BigSmilezBeats](https://www.youtube.com/@BigSmilezBeats). 
 
